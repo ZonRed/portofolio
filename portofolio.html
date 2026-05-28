@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moch. Yusuf Anshar - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-red-600 tracking-wider">MYA.</a>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-red-600 transition-colors">Home</a>
+                <a href="#about" class="hover:text-red-600 transition-colors">Tentang</a>
+                <a href="#portfolio" class="hover:text-red-600 transition-colors">Portofolio</a>
+                <a href="#contact" class="hover:text-red-600 transition-colors">Kontak</a>
+            </div>
+            <a href="https://wa.me/6281939714991" target="_blank"
+                class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-all shadow-md hover:shadow-lg">
+                <i class="fa-brands fa-whatsapp mr-2"></i>Hire Me
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home"
+        class="min-h-screen flex items-center justify-center pt-20 px-6 bg-gradient-to-br from-gray-50 to-red-50">
+        <div class="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
+            <div class="flex-1 text-center md:text-left">
+                <span
+                    class="bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">IT
+                    Support & Web Developer</span>
+                <h1 class="text-4xl md:text-5xl font-black text-gray-900 mt-4 leading-tight">
+                    Moch. Yusuf Anshar
+                </h1>
+                <p class="text-gray-600 mt-4 text-lg leading-relaxed">
+                    Lulusan S1 Teknik Informatika yang berpengalaman dalam IT Support, instalasi, dan
+                    <i>troubleshooting</i> perangkat keras/lunak, didukung keahlian <i>web development</i> serta desain
+                    grafis untuk solusi teknis yang efisien.
+                </p>
+                <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="#portfolio"
+                        class="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-xl font-medium transition-all shadow-lg">Lihat
+                        Project</a>
+                    <a href="mailto:myansar70@gmail.com"
+                        class="border-2 border-gray-300 hover:border-red-600 hover:text-red-600 px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2">
+                        <i class="fa-regular fa-envelope"></i> Hubungi Saya
+                    </a>
+                </div>
+            </div>
+            <div class="w-64 h-64 md:w-80 md:h-80 relative flex-shrink-0 animate-fade-in">
+                <!-- Outer Ring -->
+                <div
+                    class="absolute inset-0 bg-red-600 rounded-full shadow-2xl overflow-hidden border-4 border-white transform hover:scale-105 transition-transform duration-300">
+                    <img src="gambar\photo1.jpeg" alt="Foto Profil" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ABOUT & SKILLS SECTION -->
+    <section id="about" class="py-24 bg-white px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-gray-900">Tentang Saya & Keahlian</h2>
+                <div class="w-16 h-1 bg-red-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1: IT Support -->
+                <div
+                    class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition-all duration-300 group hover:-translate-y-2">
+                    <div
+                        class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6 group-hover:bg-red-600 group-hover:text-white transition-all">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">IT Support</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Terampil dalam instalasi OS (Windows/Linux),
+                        perawatan, serta analisis cepat untuk troubleshooting hardware dan software.</p>
+                </div>
+
+                <!-- Card 2: Web Development -->
+                <div
+                    class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition-all duration-300 group hover:-translate-y-2">
+                    <div
+                        class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6 group-hover:bg-red-600 group-hover:text-white transition-all">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Web Development</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Merancang dan membangun sistem informasi manajemen
+                        penjualan serta company profile berbasis website yang responsif dan solutif.</p>
+                </div>
+
+                <!-- Card 3: Design & Analytics -->
+                <div
+                    class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition-all duration-300 group hover:-translate-y-2">
+                    <div
+                        class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6 group-hover:bg-red-600 group-hover:text-white transition-all">
+                        <i class="fa-solid fa-bezier-curve"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Design & Analysis</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Mampu mengoperasikan software desain untuk
+                        kebutuhan visual perusahaan, poster promosi, hingga rambu lalu lintas teknis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION (DINAMIS DENGAN FILTER JAVASCRIPT) -->
+    <section id="portfolio" class="py-24 bg-gray-50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Portofolio Project</h2>
+                <p class="text-gray-500 mt-2">Filter berdasarkan kategori keahlian untuk melihat detail pengalaman saya.
+                </p>
+                <div class="w-16 h-1 bg-red-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Tombol Filter Dinamis -->
+            <div class="flex flex-wrap justify-center gap-3 mb-12">
+                <button onclick="filterPortfolio('all')"
+                    class="filter-btn active bg-red-600 text-white px-5 py-2 rounded-xl text-sm font-medium transition-all shadow-sm">Semua</button>
+                <button onclick="filterPortfolio('web')"
+                    class="filter-btn bg-white text-gray-600 hover:bg-gray-100 px-5 py-2 rounded-xl text-sm font-medium transition-all shadow-sm">Web
+                    Dev</button>
+                <button onclick="filterPortfolio('it')"
+                    class="filter-btn bg-white text-gray-600 hover:bg-gray-100 px-5 py-2 rounded-xl text-sm font-medium transition-all shadow-sm">IT
+                    Support</button>
+                <button onclick="filterPortfolio('design')"
+                    class="filter-btn bg-white text-gray-600 hover:bg-gray-100 px-5 py-2 rounded-xl text-sm font-medium transition-all shadow-sm">Desain
+                    Grafis</button>
+            </div>
+
+            <!-- Grid Item Project -->
+            <div id="portfolio-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-500">
+
+                <!-- Project 1 (Web) -->
+                <div
+                    class="portfolio-item web bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div
+                        class="h-48 bg-gradient-to-r from-gray-800 to-gray-700 flex items-center justify-center text-white p-6 text-center">
+                        <div>
+                            <i class="fa-solid fa-utensils text-3xl mb-2 opacity-80"></i>
+                            <h4 class="font-bold">Bang Aji Arabian Kebab</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-red-600 uppercase tracking-widest">Web Developer
+                            (Magang)</span>
+                        <h3 class="text-lg font-bold text-gray-900 mt-1">Sistem Informasi Manajemen Penjualan</h3>
+                        <p class="text-gray-500 text-sm mt-2">Merancang dan membangun sistem informasi manajemen
+                            penjualan internal berbasis website untuk optimalisasi bisnis.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Web) -->
+                <div
+                    class="portfolio-item web bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div
+                        class="h-48 bg-gradient-to-r from-blue-900 to-cyan-800 flex items-center justify-center text-white p-6 text-center">
+                        <div>
+                            <i class="fa-solid fa-droplet text-3xl mb-2 opacity-80"></i>
+                            <h4 class="font-bold">UD Yupita Air Minum</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-red-600 uppercase tracking-widest">Web Developer
+                            (Magang)</span>
+                        <h3 class="text-lg font-bold text-gray-900 mt-1">Sistem Informasi Penjualan Website</h3>
+                        <p class="text-gray-500 text-sm mt-2">Mengembangkan arsitektur dan sistem informasi penjualan
+                            berbasis web untuk mendigitalisasi transaksi UD YUPITA.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 (IT Support) -->
+                <div
+                    class="portfolio-item it bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div
+                        class="h-48 bg-gradient-to-r from-red-900 to-orange-800 flex items-center justify-center text-white p-6 text-center">
+                        <div>
+                            <i class="fa-solid fa-laptop-code text-3xl mb-2 opacity-80"></i>
+                            <h4 class="font-bold">TechDisn Freelance</h4>
+                            <h4 class="font-bold">@TechDisn</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-red-600 uppercase tracking-widest">Sales Freelancer & IT
+                            Support</span>
+                        <h3 class="text-lg font-bold text-gray-900 mt-1">Instalasi OS & PC Consultant</h3>
+                        <p class="text-gray-500 text-sm mt-2">Menyediakan jasa instalasi OS Windows/Linux, perakitan
+                            komponen peripheral gaming, serta bertindak sebagai IT Consultant.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 (Design) -->
+                <div
+                    class="portfolio-item design bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-gray-100">
+                    <div
+                        class="h-48 bg-gradient-to-r from-purple-900 to-indigo-800 flex items-center justify-center text-white p-6 text-center">
+                        <div>
+                            <i class="fa-solid fa-compass-drafting text-3xl mb-2 opacity-80"></i>
+                            <h4 class="font-bold">PT. Jawara Integra Semesta</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-red-600 uppercase tracking-widest">Desain Grafis
+                            (Magang)</span>
+                        <h3 class="text-lg font-bold text-gray-900 mt-1">Corporate Design & Company Profile</h3>
+                        <p class="text-gray-500 text-sm mt-2">Melakukan pengerjaan desain media promosi/poster berbagai
+                            ukuran, rambu lalu lintas teknis, hingga rancangan profil web.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & TELEKOMUNIKASI (DAPAT DIHUBUNGI LANGSUNG) -->
+    <section id="contact" class="py-24 bg-white px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-gray-900">Mari Terhubung</h2>
+                <p class="text-gray-500 mt-2">Silakan klik tombol di bawah untuk langsung berkomunikasi atau mengirimkan
+                    penawaran kerja.</p>
+                <div class="w-16 h-1 bg-red-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Tombol Komunikasi Langsung -->
+            <div class="grid sm:grid-cols-2 gap-6">
+                <!-- Kontak WhatsApp -->
+                <a href="https://wa.me/6281939714991" target="_blank"
+                    class="flex items-center p-6 bg-green-50 hover:bg-green-100 rounded-2xl border border-green-200 transition-all group shadow-sm">
+                    <div
+                        class="w-14 h-14 bg-green-500 text-white rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h4 class="text-xs uppercase font-bold text-green-700 tracking-wider">Hubungi WhatsApp</h4>
+                        <p class="text-lg font-bold text-gray-900 mt-0.5">+62 819-3971-4991</p>
+                        <span class="text-xs text-green-600 font-medium flex items-center gap-1 mt-1">
+                            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> Respons Cepat
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Kontak Email -->
+                <a href="mailto:myansar70@gmail.com"
+                    class="flex items-center p-6 bg-blue-50 hover:bg-blue-100 rounded-2xl border border-blue-200 transition-all group shadow-sm">
+                    <div
+                        class="w-14 h-14 bg-blue-600 text-white rounded-xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h4 class="text-xs uppercase font-bold text-blue-700 tracking-wider">Kirimkan Email</h4>
+                        <p class="text-lg font-bold text-gray-900 mt-0.5">myansar70@gmail.com</p>
+                        <span class="text-xs text-blue-600 font-medium flex items-center gap-1 mt-1">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></span> Professional Inquiry
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <div
+                class="mt-12 text-center p-6 bg-gray-50 rounded-2xl text-gray-500 text-sm flex flex-wrap justify-center gap-6">
+                <span><i class="fa-solid fa-location-dot text-red-600 mr-1"></i> Surabaya, Indonesia</span>
+                <span><i class="fa-solid fa-graduation-cap text-red-600 mr-1"></i> S1 Teknik Informatika (ITATS
+                    2025)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-xs border-t border-gray-800">
+        <p>&copy; 2026 Moch. Yusuf Anshar. All Rights Reserved. Ditulis merujuk pada CV yusuf (1).pdf.</p>
+    </footer>
+
+    <!-- JAVASCRIPT UNTUK FITUR DINAMIS -->
+    <script>
+        // Fungsi Filter Portofolio Dinamis
+        function filterPortfolio(category) {
+            const items = document.querySelectorAll('.portfolio-item');
+            const buttons = document.querySelectorAll('.filter-btn');
+
+            // Atur status aktif pada tombol filter
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-red-600', 'text-white');
+                btn.classList.add('bg-white', 'text-gray-600');
+            });
+            event.currentTarget.classList.remove('bg-white', 'text-gray-600');
+            event.currentTarget.classList.add('bg-red-600', 'text-white');
+
+            // Lakukan penyaringan kartu dengan efek visual transisi
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                    setTimeout(() => item.style.opacity = '1', 50);
+                } else {
+                    item.style.opacity = '0';
+                    setTimeout(() => item.style.display = 'none', 300);
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
